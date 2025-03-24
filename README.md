@@ -3,11 +3,13 @@
 
 This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp.
 
-Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are written in a variety of DEC's early dialects, not BCG's single use of Microsoft BASIC. CAN-AM isn't even converted to DEC's BASIC, it appears in its original Dartmouth version.
+Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are mostly written in a variety of DEC's early dialects, compared to BCG's singular use of Microsoft BASIC. Some appear in entirely different dialects - CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100.
 
-This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU, while AWARI illustrates the editing style that made BASIC infamous. Even this single collection for DEC has differences in things like using \ to separate statements instead of : in some programs, the use of & as the short form for PRINT instead of ?, and other oddities. Many of these programs will run correctly without editing under [RetroBASIC](https://github.com/maurymarkowitz/RetroBASIC), and one of the reasons for creating this collection is to provide example code to improve that program.
+This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:` in some programs, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
 
 This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted without error. Gemini (and all LLMs) will randomly add or remove whitespace, adds and removes semicolons as it sees fit, confuses zeros for eights, etc. This has been hand-edited to match the original layout and spacing as closely as possible, but some errors are to be expected.
+
+Many of these programs will run correctly without editing under [RetroBASIC](https://github.com/maurymarkowitz/RetroBASIC), and one of the reasons for creating this collection is to provide example code to improve that program.
 
 ## The collection
 
