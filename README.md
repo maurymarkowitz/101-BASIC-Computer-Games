@@ -7,7 +7,7 @@ Contrary to popular belief, 101 is *not* the same as the later and more famous [
 
 This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:` in some programs, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
 
-This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted without error. Gemini (and all LLMs) will randomly add or remove whitespace, adds and removes semicolons as it sees fit, confuses zeros for eights, etc. This has been hand-edited to match the original layout and spacing as closely as possible, but some errors are to be expected.
+This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. Gemini (and all LLMs) will randomly add or remove whitespace, add and remove semicolons as it sees fit, confuses zeros for eights, etc. The results are then hand-edited to match the original layout and spacing as closely as possible, but some errors are to be expected.
 
 Many of these programs will run correctly without editing under [RetroBASIC](https://github.com/maurymarkowitz/RetroBASIC), and one of the reasons for creating this collection is to provide example code to improve that program.
 
@@ -26,8 +26,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BATNUM | Match wits in a battle of numbers vs. the computer | 32 | Dartmouth?
 | BATTLE | Decode a matrix to locate enemy battleship | 34 | HP?
 | BINGO | Computer prints your card and calls the numbers | 36 | DECsystem 10
-| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | RSTS-11 and EduSystem 30
-| BLKJAK | Blackjack (standard game) | 42 | 
+| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | RSTS-11
+| BLKJAK | Blackjack (standard game) | 42 | EduSystem 30
 | BOAT | Destroy a gunboat from your submarine | 43 | 
 | BOMBER | Fly World War II bombing missions | 45 | 
 | BOUNCE | Plot a bouncing ball | 47 | 
