@@ -15,18 +15,18 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 
 | Name | Description | Page | Dialect |
 | ---- | ----------- | ---- | ------- |
-| ACEYDU | Play acey-ducey with the computer | 13 | RSTS/E
-| AMAZIN | Computer constructs a maze | 15 | RSTS/E
-| ANIMAL | Computer guesses animals and learns new ones from you | 17 | RSTS-11
-| AWARI | Ancient game of rotating beans in pits | 19 | PDP-11
-| BAGLES | Guess a mystery 3-digit number by logic | 22 | RSTS/E?
+| ACEYDU | Play acey-ducey with the computer | 13 | BASIC-PLUS
+| AMAZIN | Computer constructs a maze | 15 | BASIC-PLUS
+| ANIMAL | Computer guesses animals and learns new ones from you | 17 | BASIC-PLUS
+| AWARI | Ancient game of rotating beans in pits | 19 | BASIC-PLUS
+| BAGLES | Guess a mystery 3-digit number by logic | 22 | BASIC-PLUS
 | BANNER | Prints any message on a large banner | 24 | EduSystem 50
 | BASBAL | Baseball game | 26 | EduSystem 15/30/35
 | BASKET | Basketball game | 29 | Dartmouth?
 | BATNUM | Match wits in a battle of numbers vs. the computer | 32 | Dartmouth?
 | BATTLE | Decode a matrix to locate enemy battleship | 34 | HP?
 | BINGO | Computer prints your card and calls the numbers | 36 | DECsystem 10
-| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | RSTS-11
+| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | BASIC-PLUS
 | BLKJAK | Blackjack (standard game) | 42 | EduSystem 30
 | BOAT | Destroy a gunboat from your submarine | 43 | 
 | BOMBER | Fly World War II bombing missions | 45 | 

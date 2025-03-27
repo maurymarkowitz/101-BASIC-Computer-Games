@@ -358,53 +358,23 @@
 4430 O1$="---------------------------------"
 4435 PRINT USING O1$
 4440 O2$=" \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \"
-4445	PRINT USING O2$,MID(Q$,1,3),MID(Q$,4,3),MID(Q$,7,3),
-
-		MID(Q$,10,3),MID(Q$,13,3),MID(Q$,16,3),MID(Q$,19,3),
-
-		MID(Q$,22,3)
-4450	O3$=O2$+"        STARDATE        #####"
-4455	PRINT USING O3$,MID(Q$,25,3),MID(Q$,28,3),MID(Q$,31,3),
-
-		MID(Q$,34,3),MID(Q$,37,3),MID(Q$,40,3),
-
-		MID(Q$,43,3),MID(Q$,46,3),T
-4460	O4$=O2$+"        CONDITION        \     \"
-4465	PRINT USING O4$,MID(Q$,49,3),MID(Q$,52,3),MID(Q$,55,3),
-
-		MID(Q$,58,3),MID(Q$,61,3),MID(Q$,64,3),MID(Q$,67,3),
-
-		MID(Q$,70,3),C$
-4470	O5$=O2$+"        QUADRANT         #"
-4475	PRINT USING O5$,MID(R$,1,3),MID(R$,4,3),MID(R$,7,3),
-
-		MID(R$,10,3),MID(R$,13,3),MID(R$,16,3),MID(R$,19,3),
-
-		MID(R$,22,3),Q1;
-4476	PRINT ",";Q2
-4480	O6$=O2$+"        SECTOR           #"
-4485	PRINT USING O6$,MID(R$,25,3),MID(R$,28,3),
-
-		MID(R$,31,3),MID(R$,34,3),MID(R$,37,3),MID(R$,40,3),
-
-		MID(R$,43,3),MID(R$,46,3),S1;
-4486	PRINT ",";S2
-4490	O7$=O2$+"        TOTAL ENERGY   ######"
-4495	PRINT USING O7$,MID(R$,49,3),MID(R$,52,3),MID(R$,55,3),
-
-		MID(R$,58,3),MID(R$,61,3),MID(R$,64,3),MID(R$,67,3),
-
-		MID(R$,70,3),E
-4500	O8$=O2$+"        PHOTON TORPEDOES  ###"
-4505	PRINT USING O8$,MID(S$,1,3),MID(S$,4,3),MID(S$,7,3),MID(S$,10,3),
-
-		MID(S$,13,3),MID(S$,16,3),MID(S$,19,3),MID(S$,22,3),P
-4510	O9$=O2$+"        SHIELDS        ######"
-4515	PRINT USING O9$,MID(S$,25,3),MID(S$,28,3),MID(S$,31,3),
-
-		MID(S$,34,3),MID(S$,37,3),MID(S$,40,3),MID(S$,43,3),
-
-	 MID(S$,46,3),S
+4445 PRINT USING O2$,MID(Q$,1,3),MID(Q$,4,3),MID(Q$,7,3),MID(Q$,10,3),MID(Q$,13,3),MID(Q$,16,3),MID(Q$,19,3),MID(Q$,22,3)
+4450 O3$=O2$+"        STARDATE        #####"
+4455 PRINT USING O3$,MID(Q$,25,3),MID(Q$,28,3),MID(Q$,31,3),MID(Q$,34,3),MID(Q$,37,3),MID(Q$,40,3),MID(Q$,43,3),MID(Q$,46,3),T
+4460 O4$=O2$+"        CONDITION        \     \"
+4465 PRINT USING O4$,MID(Q$,49,3),MID(Q$,52,3),MID(Q$,55,3),MID(Q$,58,3),MID(Q$,61,3),MID(Q$,64,3),MID(Q$,67,3),MID(Q$,70,3),C$
+4470 O5$=O2$+"        QUADRANT         #"
+4475 PRINT USING O5$,MID(R$,1,3),MID(R$,4,3),MID(R$,7,3),MID(R$,10,3),MID(R$,13,3),MID(R$,16,3),MID(R$,19,3),MID(R$,22,3),Q1;
+4476 PRINT ",";Q2
+4480 O6$=O2$+"        SECTOR           #"
+4485 PRINT USING O6$,MID(R$,25,3),MID(R$,28,3),MID(R$,31,3),MID(R$,34,3),MID(R$,37,3),MID(R$,40,3),MID(R$,43,3),MID(R$,46,3),S1;
+4486 PRINT ",";S2
+4490 O7$=O2$+"        TOTAL ENERGY   ######"
+4495 PRINT USING O7$,MID(R$,49,3),MID(R$,52,3),MID(R$,55,3),MID(R$,58,3),MID(R$,61,3),MID(R$,64,3),MID(R$,67,3),MID(R$,70,3),E
+4500 O8$=O2$+"        PHOTON TORPEDOES  ###"
+4505 PRINT USING O8$,MID(S$,1,3),MID(S$,4,3),MID(S$,7,3),MID(S$,10,3),MID(S$,13,3),MID(S$,16,3),MID(S$,19,3),MID(S$,22,3),P
+4510 O9$=O2$+"        SHIELDS        ######"
+4515 PRINT USING O9$,MID(S$,25,3),MID(S$,28,3),MID(S$,31,3),MID(S$,34,3),MID(S$,37,3),MID(S$,40,3),MID(S$,43,3),MID(S$,46,3),S
 4520 PRINT USING O1$
 4530 RETURN
 4620 REM *** LIBRARY COMPUTER CODE BEGINS HERE
@@ -425,9 +395,7 @@
 4770 PRINT"   ----- ----- ----- ----- ----- ----- ----- -----"
 4780 FOR I=1TO8
 4790 N1$="#   ###   ###   ###   ###   ###   ###   ###   ###"
-4795	PRINT USING N1$,I,Z(I,1),Z(I,2),Z(I,3),Z(I,4),Z(I,5),Z(I,6),
-
-		Z(I,7),Z(I,8)
+4795 PRINT USING N1$,I,Z(I,1),Z(I,2),Z(I,3),Z(I,4),Z(I,5),Z(I,6),Z(I,7),Z(I,8)
 4800 PRINT"   ----- ----- ----- ----- ----- ----- ----- -----"
 4810 NEXT I
 4820 GOTO 1270
