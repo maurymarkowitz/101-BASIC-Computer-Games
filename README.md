@@ -30,8 +30,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BLKJAK | Blackjack (standard game) | 42 | EduSystem 30
 | BOAT | Destroy a gunboat from your submarine | 43 | 
 | BOMBER | Fly World War II bombing missions | 45 | Unclear, supports ELSE
-| BOUNCE | Plot a bouncing ball | 47 | 
-| BOWL | Bowling at the neighborhood lanes | 48 | 
+| BOUNCE | Plot a bouncing ball | 47 | generic
+| BOWL | Bowling at the neighborhood lanes | 48 | BASIC-PLUS
 | BOXING | 3-round Olympic boxing match | 50 | 
 | BUG | Roll dice vs. the computer to draw a bug | 52 | 
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | 
@@ -126,7 +126,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 
 ## Notes on the scanning process
 
-* Using an LLM for scanning corrects for many issues, because if you tell it the text is BASIC code then it limits the scanning to ASCII characters and knows that the thing that looks like "PRUNT" is actually "PRINT". It's not perfect, but using an LLM does fix probably 95% of the issues seen when using a traditional OCR program. The scanning process is subject to some of the basic issues that inflict all OCR's, like confusing 0 for O or 8, problems if the lines are not perfectly aligned, and so forth.
+* Traditional OCR programs are generally useless for scanning code, with at best 50% of the characters being scanning correctly. The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT". The scanning process is still subject to some of the basic issues that inflict all OCR's, like confusing 0 for O or 8 and getting it wrong where the context doesn't solve it - so it will never make a line number `1O80`, but it may change a variable from `S0` to `SO`. They also have other problems if the lines are not perfectly aligned and so forth. Overall, it is something on the order of 95% accurate, which made this effort possible.
 
 * One curiosity of the LLMs is that they will randomly switch some logical comparisons found in IF lines. The most common is to replace `<>` with `=` and vice versa, but it will also switch `>` and `<`. These are *very* difficult to catch, so it is highly likely there are some remaining logic problems in these listings.
 
