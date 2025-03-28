@@ -13,23 +13,23 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 
 ## The collection
 
-| Name | Description | Page | Dialect | Notes |
-| ---- | ----------- | ---- | ------- | ----- |
-| ACEYDU | Play acey-ducey with the computer | 13 | BASIC-PLUS | 
-| AMAZIN | Computer constructs a maze | 15 | BASIC-PLUS | 
-| ANIMAL | Computer guesses animals and learns new ones from you | 17 | BASIC-PLUS | 
-| AWARI | Ancient game of rotating beans in pits | 19 | BASIC-PLUS | 
-| BAGLES | Guess a mystery 3-digit number by logic | 22 | BASIC-PLUS | 
-| BANNER | Prints any message on a large banner | 24 | EduSystem 50 | 
-| BASBAL | Baseball game | 26 | EduSystem 15/30/35 | 
-| BASKET | Basketball game | 29 | Dartmouth? | 
-| BATNUM | Match wits in a battle of numbers vs. the computer | 32 | Dartmouth? | 
-| BATTLE | Decode a matrix to locate enemy battleship | 34 | HP? | 
-| BINGO | Computer prints your card and calls the numbers | 36 | DECsystem 10 | 
-| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | BASIC-PLUS | 
-| BLKJAK | Blackjack (standard game) | 42 | EduSystem 30 | Odd spacing
-| BOAT | Destroy a gunboat from your submarine | 43 | BASIC-8? | Over-struck chars in the original listing
-| BOMBER | Fly World War II bombing missions | 45 | 
+| Name | Description | Page | Dialect |
+| ---- | ----------- | ---- | ------- |
+| ACEYDU | Play acey-ducey with the computer | 13 | BASIC-PLUS
+| AMAZIN | Computer constructs a maze | 15 | BASIC-PLUS
+| ANIMAL | Computer guesses animals and learns new ones from you | 17 | BASIC-PLUS
+| AWARI | Ancient game of rotating beans in pits | 19 | BASIC-PLUS
+| BAGLES | Guess a mystery 3-digit number by logic | 22 | BASIC-PLUS
+| BANNER | Prints any message on a large banner | 24 | EduSystem 50
+| BASBAL | Baseball game | 26 | EduSystem 15/30/35
+| BASKET | Basketball game | 29 | Dartmouth?
+| BATNUM | Match wits in a battle of numbers vs. the computer | 32 | Dartmouth?
+| BATTLE | Decode a matrix to locate enemy battleship | 34 | HP?
+| BINGO | Computer prints your card and calls the numbers | 36 | DECsystem 10
+| BLKJAC | Blackjack (very comprehensive), Las Vegas rules | 39 | BASIC-PLUS
+| BLKJAK | Blackjack (standard game) | 42 | EduSystem 30
+| BOAT | Destroy a gunboat from your submarine | 43 | 
+| BOMBER | Fly World War II bombing missions | 45 | Unclear, supports ELSE
 | BOUNCE | Plot a bouncing ball | 47 | 
 | BOWL | Bowling at the neighborhood lanes | 48 | 
 | BOXING | 3-round Olympic boxing match | 50 | 
@@ -123,3 +123,17 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | WORD | Word guessing game | 236 | 
 | YAHTZE | Dice game of Yahtzee | 238 | 
 | ZOOP | BASIC programmer's nightmare | 243 | 
+
+## Notes
+
+* All of the LLMs will randomly switch some logical comparisons found in IF lines. The most common is to replace `<>` with `=` and vice versa, and will switch `>` for `<` and vice versa but less commonly. These are *very* difficult to catch, so it is highly likely there are some remaining logic problems in these listings.
+
+* DEC dialects initially used `\` as the statement separator, instead of the more common `:`. The LLMs love to "fix" that for you and convert it to the colon. Some programs, like BOMBER, use both, so there may be some that have been converted incorrectly here.
+
+* The LLMs understand the concept of line numbers, and that they have to be sequential. Periodically they will read the number incorrectly and then renumber all of the following lines to new, larger, values. They will insist that they have not done this and no prompting appears to fix it. These can only be seen and fixed by hand.
+
+* BASICs generally ignore any whitespace in the source code, outside string constants. This means that `GO TO` is allowed, and so is `PR INT`. Authors would often remove spaces from their code to make the file smaller. This can result in code that is extremely difficult to read, like AWARI. In other cases the spacing ends up almost entirely random, like in BOAT. These listings attempt to retain the spacing as it was in the original listing, although it is not always clear whether the spacing was in the code or part of the `LIST`ing.
+
+* BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed on the same space. All of the "graphics" at the bottom are a best-guess as to the spacing.
+
+* SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then many spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
