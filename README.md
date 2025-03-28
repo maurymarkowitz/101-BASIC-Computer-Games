@@ -104,7 +104,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | SALVO1 | Destroy 4 enemy outposts | 195 | 
 | SLOTS | Slot machine (one-arm bandit) | 196 | 
 | SNOOPY | Pictures of Snoopy | 208 | 
-| SPACWR | Comprehensive game of spacewar | 210 | 
+| SPACWR | Comprehensive game of spacewar | 210 | BASIC-PLUS
 | SPLAT | Open a parachute at the last possible moment | 205 | 
 | STARS | Guess a mystery number—stars give you clues | 207 | 
 | STOCK | Stock market simulation | 209 | 
