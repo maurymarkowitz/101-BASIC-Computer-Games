@@ -43,9 +43,9 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | Dartmouth
 | CHANGE | Computer imitates a cashier | 72 | EduSystem
 | CHECKR | Game of checkers | 73 | 
-| CHEMST | Dilute kryptocyanic acid to make it harmless | 76 | 
+| CHEMST | Dilute kryptocyanic acid to make it harmless | 76 | generic
 | CHIEF | Silly arithmetic drill | 77 | EduSystem
-| CHOMP | Eat a cookie avoiding the poison piece (2 or more players) | 78 | 
+| CHOMP | Eat a cookie avoiding the poison piece (2 or more players) | 78 | generic
 | CIVILW | Fight the Civil War | 80 | 
 | CRAPS | Play craps (dice), Las Vegas style | 83 | 
 | CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | 
