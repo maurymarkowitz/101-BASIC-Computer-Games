@@ -15,9 +15,9 @@ When you read the following list, it might seem that using the OCR and LLM is no
 
 * The LLMs all add or remove semicolons in `PRINT` statements seemingly at random, and these need to be checked. They have no effect on the running of the program, but the goal in this case is to exactly match the original source code.
 
-* All OCR programs, including the LLMs, get confused about whitespace in strings and will generally never get it right. They will also add or remove runs of characters like `.....` coming out as `.`, because *obviously* that's what they meant to type. Generally speaking, string constants have to be checked by hand every time, and any string of the same character should be counted out.
+* All OCR programs, including the LLMs, get confused about whitespace in strings and will generally never get it right. They will also add or remove runs of characters like `.....` coming out as `.`, because *obviously* that's what they meant to type. One particularly common modification is to remove the double spaces that used to be almost universal after periods. Generally speaking, string constants have to be checked by hand every time, and any string of the same character should be counted out.
 
-* There are also cases where the LLM will "fix" the spelling and grammar for you, which are also difficult to notice. Luckily they generally understand the concept of a string constant and won't change them in most cases.
+* There are also cases where the LLM will "fix" the spelling and grammar for you, like when it replaced "suitable" with "acceptable" and insisted on putting single-quotes around the word "BUZZWORD". These can be very difficult to notice just by reading the strings, your brain will simply skip over them. You will, however, notice that the lines do not line up with the ones above and below, which is the easiest way to spot these issues. This is best handled by looking at where closing quotes are in relation to the characters above and below.
 
 Notes on the code and the programs
 ==================================
@@ -26,12 +26,14 @@ Notes on the code and the programs
 
 * You'll find all sorts of spelling and grammar mistakes in the code, these are in the originals and have been retained as-is.
 
-* Some of the programs, like BOWL and BLKJAC, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This could be used to indent loops and such, but it is not clear that this is always deliberate. BLKJAC does appear to be "correctly spaced", but BOWL is largely random and some of the lines suggest this is just a side-effect of the printer. In any case, these spaces have been retained in this code.
+* Some of the programs, like BOWL and BLKJAC, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This was sometimes used to indent loops and such, especially in Dartmouth code, but it is not clear that this is always deliberate in these examples. BLKJAC does appear to be "correctly spaced", but BOWL is random and some of the lines suggest this is just a side-effect of the printer. These spaces have been retained in this code.
 
 * BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed in the same location. All of the "graphics" at the bottom are a best-guess as to the spacing.
 
 * BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
 
 * The code for BUNNY is missing in the original book. It can be found in BCG and I did not want to copy that version here.
+
+* BUZZWD scanned poorly for no obvious reason. It removed spaces, changed words, renumbered, added entirely new lines of code, switch the sense of the comparisons and just about everything else it could do.
 
 * SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
