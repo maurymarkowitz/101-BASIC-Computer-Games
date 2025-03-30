@@ -1,7 +1,7 @@
-Notes on this collection
+Notes on the OCR process
 ========================
 
-Traditional OCR programs are generally useless for scanning code, with, at best, 50% of the characters being scanning correctly. On poorer quality prints, like these, the error rate was much closer to 90%. The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, which is as simple as uploading a screen capture and asking it to "ocr this basic code", it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT".
+Traditional OCR programs are generally useless for scanning code, with, at best, 50% of the characters being scanned correctly. On poorer quality prints, like these, the error rate was much closer to 90%. Much of the problem appears to be due to OCRs not being able to be told the text is monospaced, and the code splitting or joining glyphs. The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, which is as simple as uploading a screen capture and asking it to "ocr this basic code", it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT".
 
 The scanning process is still subject to some of the basic issues that inflict all OCR's, like confusing 0 for O or 8 and getting it wrong where the context doesn't solve it - so it will never make a line number `1O80`, but it may change a variable name from `S0` to `SO`. They also have other problems if the lines are not perfectly aligned and so forth. Overall, it is something on the order of 95% accurate, which made this effort possible.
 
@@ -19,9 +19,12 @@ When you read the following list, it might seem that using the OCR and LLM is no
 
 * There are also cases where the LLM will "fix" the spelling and grammar for you, which are also difficult to notice. Luckily they generally understand the concept of a string constant and won't change them in most cases.
 
-## Notes on the code and the programs
+Notes on the code and the programs
+==================================
 
 * BASICs generally ignore any whitespace in the source code, outside string constants. This means that `GO TO` is allowed, and so is `PR INT`. Authors would often remove spaces from their code to make the file smaller. This can result in code that is extremely difficult to read, like AWARI. In other cases the spacing ends up almost entirely random, like in BOAT. These listings attempt to retain the spacing as it was in the original listing.
+
+* You'll find all sorts of spelling and grammar mistakes in the code, these are in the originals and have been retained as-is.
 
 * Some of the programs, like BOWL and BLKJAC, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This could be used to indent loops and such, but it is not clear that this is always deliberate. BLKJAC does appear to be "correctly spaced", but BOWL is largely random and some of the lines suggest this is just a side-effect of the printer. In any case, these spaces have been retained in this code.
 

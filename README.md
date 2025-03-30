@@ -7,7 +7,7 @@ Contrary to popular belief, 101 is *not* the same as the later and more famous [
 
 This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:` in some programs, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
 
-This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. See the notes below for some oddities to look for.
+This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. See [NOTES.md](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/blob/main/NOTES.md) for some oddities to look for.
 
 Many of these programs will run correctly without editing under [RetroBASIC](https://github.com/maurymarkowitz/RetroBASIC), and one of the reasons for creating this collection is to provide example code to improve that program.
 
