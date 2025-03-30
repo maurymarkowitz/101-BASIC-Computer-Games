@@ -19,6 +19,8 @@ When you read the following list, it might seem that using the OCR and LLM is no
 
 * There are also cases where the LLM will "fix" the spelling and grammar for you, like when it replaced "suitable" with "acceptable" and insisted on putting single-quotes around the word "BUZZWORD". These can be very difficult to notice just by reading the strings, your brain will simply skip over them. You will, however, notice that the lines do not line up with the ones above and below, which is the easiest way to spot these issues. This is best handled by looking at where closing quotes are in relation to the characters above and below.
 
+* Finally, all of the LLMs will eventually blow up if you ask it to scan too many files. In Gemini this was around 30 to 40 images. If you see it start converting things to Notes or saying it can only handle text, just close the browser and reopen the starting page.
+
 Notes on the code and the programs
 ==================================
 
@@ -35,5 +37,7 @@ Notes on the code and the programs
 * The code for BUNNY is missing in the original book. It can be found in BCG, but I did not want to copy that version here.
 
 * BUZZWD scanned poorly for no obvious reason. It removed spaces, changed words, renumbered, added entirely new lines of code, switch the sense of the comparisons and just about everything else it could do.
+
+* CANAM has some vertical spacing in PRINT statements that has been removed.
 
 * SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
