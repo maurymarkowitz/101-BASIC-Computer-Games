@@ -46,7 +46,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CHEMST | Dilute kryptocyanic acid to make it harmless | 76 | generic
 | CHIEF | Silly arithmetic drill | 77 | EduSystem
 | CHOMP | Eat a cookie avoiding the poison piece (2 or more players) | 78 | generic
-| CIVILW | Fight the Civil War | 80 | 
+| CIVILW | Fight the Civil War | 80 | generic
 | CRAPS | Play craps (dice), Las Vegas style | 83 | 
 | CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | 
 | DIAMND | Prints 1-page diamond patterns | 87 | 
