@@ -44,7 +44,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CHANGE | Computer imitates a cashier | 72 | EduSystem
 | CHECKR | Game of checkers | 73 | 
 | CHEMST | Dilute kryptocyanic acid to make it harmless | 76 | 
-| CHIEF | Silly arithmetic drill | 77 | 
+| CHIEF | Silly arithmetic drill | 77 | EduSystem
 | CHOMP | Eat a cookie avoiding the poison piece (2 or more players) | 78 | 
 | CIVILW | Fight the Civil War | 80 | 
 | CRAPS | Play craps (dice), Las Vegas style | 83 | 

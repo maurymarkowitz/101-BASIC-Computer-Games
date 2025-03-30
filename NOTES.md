@@ -24,9 +24,9 @@ When you read the following list, it might seem that using the OCR and LLM is no
 Notes on the code and the programs
 ==================================
 
-* BASICs generally ignore any whitespace in the source code, outside string constants. This means that `GO TO` is allowed, and so is `PR INT`. Authors would often remove spaces from their code to make the file smaller. This can result in code that is extremely difficult to read, like AWARI. In other cases the spacing ends up almost entirely random, like in BOAT. These listings attempt to retain the spacing as it was in the original listing.
-
 * You'll find all sorts of spelling and grammar mistakes in the code, these are in the originals and have been retained as-is.
+
+* BASICs generally ignore any whitespace in the source code, outside string constants. This means that `GO TO` is allowed, and so is `PR INT`. Authors would often remove spaces from their code to make the file smaller. This can result in code that is extremely difficult to read, like AWARI. In other cases the spacing ends up almost entirely random, like in BOAT. These listings attempt to retain the spacing as it was in the original listing.
 
 * Some of the programs, like BOWL and BLKJAC, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This was sometimes used to indent loops and such, especially in Dartmouth code, but it is not clear that this is always deliberate in these examples. BLKJAC does appear to be "correctly spaced", but BOWL is random and some of the lines suggest this is just a side-effect of the printer. These spaces have been retained in this code.
 
@@ -38,6 +38,6 @@ Notes on the code and the programs
 
 * BUZZWD scanned poorly for no obvious reason. It removed spaces, changed words, renumbered, added entirely new lines of code, switch the sense of the comparisons and just about everything else it could do.
 
-* CANAM has some vertical spacing in PRINT statements that has been removed.
+* CANAM has some vertical spacing in PRINT statements that has been removed. The printer makes O and Q very similar, and there are almost certainly problems with O$ vs. Q$ that need to be fixed.
 
 * SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
