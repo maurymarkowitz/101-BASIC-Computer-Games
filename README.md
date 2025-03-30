@@ -35,7 +35,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BOXING | 3-round Olympic boxing match | 50 | 
 | BUG | Roll dice vs. the computer to draw a bug | 52 | HP?
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | Dartmouth?
-| BULEYE | Throw darts | 57 | 
+| BULEYE | Throw darts | 57 | BASIC-PLUS
 | BULL | You're the matador in a championship bullfight | 59 | 
 | BUNNY | Computer drawing of the Playboy bunny | 62 | 
 | BUZZWD | Compose your speeches with the latest buzzwords | 63 | 
