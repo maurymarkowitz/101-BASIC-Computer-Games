@@ -32,12 +32,12 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BOMBER | Fly World War II bombing missions | 45 | Unclear, supports ELSE
 | BOUNCE | Plot a bouncing ball | 47 | generic
 | BOWL | Bowling at the neighborhood lanes | 48 | BASIC-PLUS
-| BOXING | 3-round Olympic boxing match | 50 | 
+| BOXING | 3-round Olympic boxing match | 50 | generic DEC
 | BUG | Roll dice vs. the computer to draw a bug | 52 | HP?
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | Dartmouth?
 | BULEYE | Throw darts | 57 | BASIC-PLUS
-| BULL | You're the matador in a championship bullfight | 59 | 
-| BUNNY | Computer drawing of the Playboy bunny | 62 | No actual code!
+| BULL | You're the matador in a championship bullfight | 59 | generic DEC
+| BUNNY | Computer drawing of the Playboy bunny | 62 | No code!
 | BUZZWD | Compose your speeches with the latest buzzwords | 63 | 
 | CALNDR | Calendar for any year | 65 | 
 | CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | 

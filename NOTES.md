@@ -32,7 +32,7 @@ Notes on the code and the programs
 
 * BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
 
-* The code for BUNNY is missing in the original book. It can be found in BCG and I did not want to copy that version here.
+* The code for BUNNY is missing in the original book. It can be found in BCG, but I did not want to copy that version here.
 
 * BUZZWD scanned poorly for no obvious reason. It removed spaces, changed words, renumbered, added entirely new lines of code, switch the sense of the comparisons and just about everything else it could do.
 
