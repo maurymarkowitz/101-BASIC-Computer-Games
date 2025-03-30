@@ -148,4 +148,6 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 
 * BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed in the same location. All of the "graphics" at the bottom are a best-guess as to the spacing.
 
+* BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
+
 * SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
