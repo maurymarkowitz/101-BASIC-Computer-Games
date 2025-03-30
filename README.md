@@ -21,7 +21,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | AWARI | Ancient game of rotating beans in pits | 19 | BASIC-PLUS
 | BAGLES | Guess a mystery 3-digit number by logic | 22 | BASIC-PLUS
 | BANNER | Prints any message on a large banner | 24 | EduSystem 50
-| BASBAL | Baseball game | 26 | EduSystem 15/30/35
+| BASBAL | Baseball game | 26 | EduSystem 15/30/35, uses CHAIN
 | BASKET | Basketball game | 29 | Dartmouth?
 | BATNUM | Match wits in a battle of numbers vs. the computer | 32 | Dartmouth?
 | BATTLE | Decode a matrix to locate enemy battleship | 34 | HP?
@@ -34,7 +34,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BOWL | Bowling at the neighborhood lanes | 48 | BASIC-PLUS
 | BOXING | 3-round Olympic boxing match | 50 | 
 | BUG | Roll dice vs. the computer to draw a bug | 52 | HP?
-| BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | 
+| BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | Dartmouth?
 | BULEYE | Throw darts | 57 | 
 | BULL | You're the matador in a championship bullfight | 59 | 
 | BUNNY | Computer drawing of the Playboy bunny | 62 | 
