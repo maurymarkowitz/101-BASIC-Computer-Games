@@ -1,5 +1,5 @@
 101 BASIC Computer Games
-===========================================
+========================
 
 This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp.
 
@@ -37,7 +37,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | Dartmouth?
 | BULEYE | Throw darts | 57 | BASIC-PLUS
 | BULL | You're the matador in a championship bullfight | 59 | 
-| BUNNY | Computer drawing of the Playboy bunny | 62 | 
+| BUNNY | Computer drawing of the Playboy bunny | 62 | No actual code!
 | BUZZWD | Compose your speeches with the latest buzzwords | 63 | 
 | CALNDR | Calendar for any year | 65 | 
 | CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | 
@@ -123,31 +123,3 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | WORD | Word guessing game | 236 | 
 | YAHTZE | Dice game of Yahtzee | 238 | 
 | ZOOP | BASIC programmer's nightmare | 243 | 
-
-## Notes on the scanning process
-
-* Traditional OCR programs are generally useless for scanning code, with at best 50% of the characters being scanning correctly. The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT". The scanning process is still subject to some of the basic issues that inflict all OCR's, like confusing 0 for O or 8 and getting it wrong where the context doesn't solve it - so it will never make a line number `1O80`, but it may change a variable from `S0` to `SO`. They also have other problems if the lines are not perfectly aligned and so forth. Overall, it is something on the order of 95% accurate, which made this effort possible.
-
-* One curiosity of the LLMs is that they will randomly switch some logical comparisons found in IF lines. The most common is to replace `<>` with `=` and vice versa, but it will also switch `>` and `<`. These are *very* difficult to catch, so it is highly likely there are some remaining logic problems in these listings.
-
-* The LLMs understand the concept of line numbers, and that they have to be sequential. Periodically they will read the number incorrectly and then renumber all of the following lines to new, larger, values. They will insist that they have not done this and no prompting appears to fix it. These can only be seen and fixed by hand.
-
-* DEC dialects initially used `\` as the statement separator, instead of the more common `:`. The LLMs love to "fix" that for you and convert it to the colon. Some programs, like BOMBER, use both, so there may be some that have been converted incorrectly here.
-
-* The LLMs all add or remove semicolons in `PRINT` statements seemingly at random, and these need to be checked carefully.
-
-* All OCR programs, including the LLMs, get confused about whitespace in strings and will generally never get it right. They will also add or remove runs of characters like `.....` coming out as `.`, because *obviously* that's what they meant to type. Generally speaking, string constants have to be checked by hand every time.
-
-* There are also cases where the LLM will "fix" the spelling and grammar for you, which are also difficult to notice.
-
-## Notes on the code
-
-* BASICs generally ignore any whitespace in the source code, outside string constants. This means that `GO TO` is allowed, and so is `PR INT`. Authors would often remove spaces from their code to make the file smaller. This can result in code that is extremely difficult to read, like AWARI. In other cases the spacing ends up almost entirely random, like in BOAT. These listings attempt to retain the spacing as it was in the original listing.
-
-* Some of the programs, like BOWL and BLKJAC for instance, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This could be used to indent loops and such, but it is not clear that this is deliberate. BLKJAC does appear to be "correctly spaced", but BOWL is largely random and some of the lines suggest this is just a side-effect of the printer. In any case, these spaces have been retained in this code.
-
-* BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed in the same location. All of the "graphics" at the bottom are a best-guess as to the spacing.
-
-* BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
-
-* SPCWAR has lines around the 4400 mark that are spaced out vertically in the original listing. It appears this was done by inserting a line feed character and then spaces. It was not clear how this could be maintained in these listings without causing problems on one platform or another, so these lines have been run together.
