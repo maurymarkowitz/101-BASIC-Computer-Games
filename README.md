@@ -7,7 +7,7 @@ Contrary to popular belief, 101 is *not* the same as the later and more famous [
 
 This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:` in some programs, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
 
-This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. See [NOTES.md](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/blob/main/NOTES.md) for some oddities to look for.
+This collection was prepared with the help of the OCR in Gemini AI. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. See the [NOTES](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/blob/main/NOTES.md) for some oddities to look for.
 
 Many of these programs will run correctly without editing under [RetroBASIC](https://github.com/maurymarkowitz/RetroBASIC), and one of the reasons for creating this collection is to provide example code to improve that program.
 
@@ -38,10 +38,10 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BULEYE | Throw darts | 57 | BASIC-PLUS
 | BULL | You're the matador in a championship bullfight | 59 | generic DEC
 | BUNNY | Computer drawing of the Playboy bunny | 62 | No code!
-| BUZZWD | Compose your speeches with the latest buzzwords | 63 | 
-| CALNDR | Calendar for any year | 65 | 
-| CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | 
-| CHANGE | Computer imitates a cashier | 72 | 
+| BUZZWD | Compose your speeches with the latest buzzwords | 63 | EduSystem
+| CALNDR | Calendar for any year | 65 | EduSystem
+| CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | Dartmouth
+| CHANGE | Computer imitates a cashier | 72 | EduSystem
 | CHECKR | Game of checkers | 73 | 
 | CHEMST | Dilute kryptocyanic acid to make it harmless | 76 | 
 | CHIEF | Silly arithmetic drill | 77 | 
