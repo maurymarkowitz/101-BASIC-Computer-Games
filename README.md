@@ -33,7 +33,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BOUNCE | Plot a bouncing ball | 47 | generic
 | BOWL | Bowling at the neighborhood lanes | 48 | BASIC-PLUS
 | BOXING | 3-round Olympic boxing match | 50 | 
-| BUG | Roll dice vs. the computer to draw a bug | 52 | 
+| BUG | Roll dice vs. the computer to draw a bug | 52 | HP?
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | 
 | BULEYE | Throw darts | 57 | 
 | BULL | You're the matador in a championship bullfight | 59 | 
