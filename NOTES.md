@@ -30,9 +30,7 @@ Notes on the code and the programs
 
 * Some of the programs, like BOWL and BLKJAC, show what appears to be extra spaces inserted at the front of the line between the line number and the statements. This was sometimes used to indent loops and such, especially in Dartmouth code, but it is not clear that this is always deliberate in these examples. BLKJAC does appear to be "correctly spaced", but BOWL is random and some of the lines suggest this is just a side-effect of the printer. These spaces have been retained in this code.
 
-* BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed in the same location. All of the "graphics" at the bottom are a best-guess as to the spacing.
-
-* BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
+* BOAT uses ASCII graphics that require precise spacing to look right, but the original listing is too wide for the printer which results in any characters off the right side being printed in the same location. All of the "graphics" at the bottom are a best-guess as to the spacing. BULL also runs off the end of the line, the formula on line 1390 is a best-guess based on the two-line version found in BCG.
 
 * The code for BUNNY is missing in the original book. It can be found in BCG, but I did not want to copy that version here.
 
