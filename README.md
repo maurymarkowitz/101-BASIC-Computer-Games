@@ -3,7 +3,7 @@
 
 This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp.
 
-Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are mostly written in BASIC-PLUS or BASIC-8, compared to BCG's singular use of Microsoft BASIC. Some appear in entirely different dialects, for instance, CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100.
+Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are mostly written in BASIC-PLUS or BASIC-8, compared to BCG's singular use of Microsoft BASIC. Some appear in entirely different dialects, for instance, CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100. In some cases the dialect is mentioned in the book, but in most it is not and the listing below is a best-guess based on the syntax.
 
 This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:` in some programs, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
 
@@ -48,7 +48,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CHOMP | Eat a cookie avoiding the poison piece (2 or more players) | 78 | generic
 | CIVILW | Fight the Civil War | 80 | generic
 | CRAPS | Play craps (dice), Las Vegas style | 83 | BASIC-8
-| CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | 
+| CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | generic
 | DIAMND | Prints 1-page diamond patterns | 87 | 
 | DICE | Summarizes dice rolls | 89 | 
 | DIGITS | Computer tries to guess digits you select at random | 91 | 
