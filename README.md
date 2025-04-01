@@ -56,7 +56,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | EVEN | Take objects from a pile--try to end with an even number | 96 | 
 | EVEN1 | Same as EVEN--computer improves its play | 98 | 
 | FIPFOP | Solitaire logic game--change a row of Xs to Os | 99 | 
-| FOOTBL | Professional football (very comprehensive) | 101 | 
+| FOOTBL | Professional football (very comprehensive) | 101 | BASIC-PLUS
 | FOOTBAL | High School football | 104 | 
 | FURS | Trade furs with the white man | 106 | 
 | GOLF | Golf game—choose your clubs and swing | 109 | 
