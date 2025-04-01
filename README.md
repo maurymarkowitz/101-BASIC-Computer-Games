@@ -51,8 +51,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | generic
 | DIAMND | Prints 1-page diamond patterns | 87 | BASIC-8/EduSystem
 | DICE | Summarizes dice rolls | 89 | BASIC-8/EduSystem
-| DIGITS | Computer tries to guess digits you select at random | 91 | 
-| DOGS | Penny arcade dog race | 93 | 
+| DIGITS | Computer tries to guess digits you select at random | 91 | Dartmouth? BASIC-PLUS?
+| DOGS | Penny arcade dog race | 93 | EduSystem 50
 | EVEN | Take objects from a pile--try to end with an even number | 96 | 
 | EVEN1 | Same as EVEN--computer improves its play | 98 | 
 | FIPFOP | Solitaire logic game--change a row of Xs to Os | 99 | 
