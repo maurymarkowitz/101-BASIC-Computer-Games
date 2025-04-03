@@ -61,7 +61,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | FURS | Trade furs with the white man | 106 | 
 | GOLF | Golf game—choose your clubs and swing | 109 | 
 | GOMOKO | Ancient board game of logic and strategy | 110 | 
-| GUESS | Guess a mystery number—computer gives you clues | 113 | 
+| GUESS | Guess a mystery number—computer gives you clues | 113 | EduSystem 20
 | GUNNER | Fire a cannon at a stationary target | 115 | 
 | GUNER1 | Fire a cannon at a moving target | 116 | 
 | HANG | Hangman word guessing game | 118 | 
