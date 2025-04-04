@@ -1,7 +1,7 @@
 101 BASIC Computer Games
 ========================
 
-This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp. You can download all of the programs using the Releases link to the right.
+This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp. You can download all of the programs in a single archive using the [Releases](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/releases) link to the right.
 
 Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are mostly written in BASIC-PLUS or BASIC-8, compared to BCG's singular use of Microsoft BASIC. Some appear in entirely different dialects, for instance, CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100. In some cases the dialect is mentioned in the book, but in most it is not and the listing below is a best-guess based on the syntax.
 
