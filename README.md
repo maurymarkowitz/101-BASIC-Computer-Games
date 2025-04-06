@@ -3,9 +3,9 @@
 
 This folder contains the programs found in the March 1975 3rd printing of David Ahl's [*101 BASIC Computer Games*](https://archive.org/details/101basiccomputer0000davi), published by Digital Equipment Corp. You can download all of the programs in a single archive using the [Releases](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/releases) link to the right.
 
-Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. The programs in this collection are mostly written in BASIC-PLUS or BASIC-8, compared to BCG's singular use of Microsoft BASIC. Some appear in entirely different dialects, for instance, CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100. In some cases the dialect is mentioned in the book, but in most it is not and the listing below is a best-guess based on the syntax.
+Contrary to popular belief, 101 is *not* the same as the later and more famous [*BASIC Computer Games*](https://github.com/GReaperEx/bcg) (BCG) published by Ahl through Creative Computing. A number of the games in this collection did not appear in BCG, and vice versa. In comparison to BCG's used of Microsoft-like BASIC, the source in this book spans several different and sometimes incompatible dialects. For instance, CAN-AM is in its original Dartmouth version, and BATTLE appears to be HP 2100. In some cases the dialect is mentioned in the book, but in most it's not and the listing below is a best-guess based on the syntax.
 
-This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:`, the use of `&` as the short form for `PRINT` instead of `?`, and other oddities.
+This collection is an excellent example of the different dialects and programming styles one found at the time. ANIMAL is almost a different language than ACEYDU although they are both from DEC, while AWARI illustrates the editing style that made BASIC infamous. Even within the DEC examples we have differences in things like using `\` to separate statements instead of `:`, the use of `&` as the short form for `PRINT` instead of `?`, and the other oddities of BASIC-PLUS.
 
 This collection was prepared with the help of the OCR in Gemini AI, ChatGTP and Le Chat. In contrast to other collections, like [PCC](https://github.com/maurymarkowitz/Peoples-Computer-Company-code), the print quality of this book is fairly good and most of the programs were converted with minimal problems. See the [NOTES](https://github.com/maurymarkowitz/101-BASIC-Computer-Games/blob/main/NOTES.md) for some oddities to look for.
 
@@ -69,7 +69,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | HEX | Hexapawn game | 122 | BASIC-PLUS
 | HI-LO | Try to hit the mystery jackpot | 124 | 
 | HI-Q | Try to remove all the pegs from a board | 126 | 
-| HMRABI | Govern the ancient city-state of Sumeria | 128 | BASIC-8
+| HMRABI | Govern the ancient city-state of Sumeria | 128 | generic
 | HOCKEY | Ice hockey vs. Cornell | 130 | 
 | HORSES | Off-track betting on a horse race | 133 | 
 | HURKLE | Find the Hurkle hiding on a 10x10 grid | 135 | 
