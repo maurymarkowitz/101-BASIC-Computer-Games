@@ -69,7 +69,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | HEX | Hexapawn game | 122 | BASIC-PLUS
 | HI-LO | Try to hit the mystery jackpot | 124 | 
 | HI-Q | Try to remove all the pegs from a board | 126 | 
-| HMRABI | Govern the ancient city-state of Sumeria | 128 | 
+| HMRABI | Govern the ancient city-state of Sumeria | 128 | BASIC-8
 | HOCKEY | Ice hockey vs. Cornell | 130 | 
 | HORSES | Off-track betting on a horse race | 133 | 
 | HURKLE | Find the Hurkle hiding on a 10x10 grid | 135 | 
