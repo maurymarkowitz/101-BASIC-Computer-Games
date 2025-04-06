@@ -66,7 +66,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | GUNER1 | Fire a cannon at a moving target | 116 | generic
 | HANG | Hangman word guessing game | 118 | BASIC-PLUS
 | HELLO | Computer becomes your friendly psychiatrist | 120 | EduSystem 25
-| HEX | Hexapawn game | 122 | 
+| HEX | Hexapawn game | 122 | BASIC-PLUS
 | HI-LO | Try to hit the mystery jackpot | 124 | 
 | HI-Q | Try to remove all the pegs from a board | 126 | 
 | HMRABI | Govern the ancient city-state of Sumeria | 128 | 
