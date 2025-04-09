@@ -1,0 +1,44 @@
+BEFORE THE DEMO
+
+Run the app once, open any property, and close everything again. This "primes the pump" on the database.
+
+
+DURING DEMO
+
+PROPERTY DETAILS
+
+Open any property, Hamilton Corner is a good one because it's mid-sized.
+
+Explain the inputs on the property screen, and categories at the bottom.
+
+RENT ROLL
+
+Open the rent roll, using the scroll icon.
+
+Change a date.
+
+Change a rent.
+
+Open an existing percent rent. Change sales and breakpoint, show how the calculated values change.
+
+Make some change, like sales, and save it.
+
+EXPENSES
+
+Open the workpaper tab, looks like a folder.
+
+Use the buttons at the top to change the views - Budget, Actuals, etc.
+
+Use the pop-up to remove years
+
+change a value in one of the accounts and press tab, show the totals updating in realtime etc.
+
+
+CASHFLOW
+
+Click the dollar sign icon to display the cash flow report.
+
+Click the export-to-excel to show that functionality
+
+
+POWER BI

@@ -72,8 +72,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | HMRABI | Govern the ancient city-state of Sumeria | 128 | generic
 | HOCKEY | Ice hockey vs. Cornell | 130 | 
 | HORSES | Off-track betting on a horse race | 133 | 
-| HURKLE | Find the Hurkle hiding on a 10x10 grid | 135 | 
-| KINEMA | Drill in simple kinematics | 137 | 
+| HURKLE | Find the Hurkle hiding on a 10x10 grid | 135 | BASIC-8
+| KINEMA | Drill in simple kinematics | 137 | generic
 | KING | Govern a modern island kingdom wisely | 138 | 
 | LETTER | Guess a mystery letter—computer gives you clues | 141 | 
 | LIFE | John Conway's Game of Life | 143 | 
