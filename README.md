@@ -77,8 +77,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | KING | Govern a modern island kingdom wisely | 138 | BASIC-PLUS
 | LETTER | Guess a mystery letter—computer gives you clues | 141 | EduSystem 30
 | LIFE | John Conway's Game of Life | 143 | BASIC-PLUS
-| LIFE-2 | Competitive game of life (2 or more players) | 146 | 
-| LITQZ | Children's literature quiz | 148 | 
+| LIFE-2 | Competitive game of life (2 or more players) | 146 | BASIC-PLUS
+| LITQZ | Children's literature quiz | 148 | EduSystem 30
 | MATHD | Children's arithmetic drill using pictures of dice | 151 | 
 | MNOPLY | Monopoly for 2 players | 153 | 
 | MUGWMP | Locate 4 Mugwumps hiding on a 10x10 grid | 156 | 
