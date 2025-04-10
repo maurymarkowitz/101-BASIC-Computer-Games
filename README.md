@@ -74,9 +74,9 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | HORSES | Off-track betting on a horse race | 133 | 
 | HURKLE | Find the Hurkle hiding on a 10x10 grid | 135 | BASIC-8
 | KINEMA | Drill in simple kinematics | 137 | generic
-| KING | Govern a modern island kingdom wisely | 138 | 
-| LETTER | Guess a mystery letter—computer gives you clues | 141 | 
-| LIFE | John Conway's Game of Life | 143 | 
+| KING | Govern a modern island kingdom wisely | 138 | BASIC-PLUS
+| LETTER | Guess a mystery letter—computer gives you clues | 141 | EduSystem 30
+| LIFE | John Conway's Game of Life | 143 | BASIC-PLUS
 | LIFE-2 | Competitive game of life (2 or more players) | 146 | 
 | LITQZ | Children's literature quiz | 148 | 
 | MATHD | Children's arithmetic drill using pictures of dice | 151 | 
