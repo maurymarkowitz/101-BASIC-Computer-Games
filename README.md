@@ -51,7 +51,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | CUBE | Negotiate a 3-D cube avoiding hidden landmines | 85 | generic
 | DIAMND | Prints 1-page diamond patterns | 87 | BASIC-8/EduSystem
 | DICE | Summarizes dice rolls | 89 | BASIC-8/EduSystem
-| DIGITS | Computer tries to guess digits you select at random | 91 | Dartmouth? BASIC-PLUS?
+| DIGITS | Computer tries to guess digits you select at random | 91 | BASIC-PLUS?
 | DOGS | Penny arcade dog race | 93 | EduSystem 50
 | EVEN | Take objects from a pile--try to end with an even number | 96 | 
 | EVEN1 | Same as EVEN--computer improves its play | 98 | 
@@ -79,7 +79,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | LIFE | John Conway's Game of Life | 143 | BASIC-PLUS
 | LIFE-2 | Competitive game of life (2 or more players) | 146 | BASIC-PLUS
 | LITQZ | Children's literature quiz | 148 | EduSystem 30
-| MATHD | Children's arithmetic drill using pictures of dice | 151 | 
+| MATHD | Children's arithmetic drill using pictures of dice | 151 | EduSystem 30
 | MNOPLY | Monopoly for 2 players | 153 | 
 | MUGWMP | Locate 4 Mugwumps hiding on a 10x10 grid | 156 | 
 | NICOMA | Computer guesses number you think of | 158 | 
