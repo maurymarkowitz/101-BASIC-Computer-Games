@@ -80,7 +80,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | LIFE-2 | Competitive game of life (2 or more players) | 146 | BASIC-PLUS
 | LITQZ | Children's literature quiz | 148 | EduSystem 30
 | MATHD | Children's arithmetic drill using pictures of dice | 151 | EduSystem 30
-| MNOPLY | Monopoly for 2 players | 153 | 
+| MNOPLY | Monopoly for 2 players | 153 | BASIC-PLUS
 | MUGWMP | Locate 4 Mugwumps hiding on a 10x10 grid | 156 | 
 | NICOMA | Computer guesses number you think of | 158 | 
 | NIM | Chinese game of Nim | 160 | 
