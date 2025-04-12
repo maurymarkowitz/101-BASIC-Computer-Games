@@ -82,7 +82,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | MATHD | Children's arithmetic drill using pictures of dice | 151 | EduSystem 30
 | MNOPLY | Monopoly for 2 players | 153 | BASIC-PLUS
 | MUGWMP | Locate 4 Mugwumps hiding on a 10x10 grid | 156 | BASIC-PLUS
-| NICOMA | Computer guesses number you think of | 158 | 
+| NICOMA | Computer guesses number you think of | 158 | BASIC-PLUS
 | NIM | Chinese game of Nim | 160 | 
 | NUMBER | Silly number matching game | 162 | 
 | 1CHECK | Challenging game to remove checkers from a board | 163 | 
