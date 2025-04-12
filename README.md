@@ -86,7 +86,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | NIM | Chinese game of Nim | 160 | EduSystem 30?
 | NUMBER | Silly number matching game | 162 | EduSystem 30
 | 1CHECK | Challenging game to remove checkers from a board | 163 | unknown, uses USING
-| ORBIT | Destroy an orbiting germ-laiden enemy spaceship | 165 | 
+| ORBIT | Destroy an orbiting germ-laiden enemy spaceship | 165 | generic
 | PIZZA | Deliver pizzas successfully | 167 | 
 | POETRY | Computer composes poetry in 4-part harmony | 169 | 
 | POET | Computer composes random poetry | 171 | 
