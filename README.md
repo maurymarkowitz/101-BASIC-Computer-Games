@@ -88,8 +88,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | 1CHECK | Challenging game to remove checkers from a board | 163 | unknown, uses USING
 | ORBIT | Destroy an orbiting germ-laiden enemy spaceship | 165 | generic
 | PIZZA | Deliver pizzas successfully | 167 | 
-| POETRY | Computer composes poetry in 4-part harmony | 169 | 
-| POET | Computer composes random poetry | 171 | 
+| POETRY | Computer composes poetry in 4-part harmony | 169 | generic
+| POET | Computer composes random poetry | 171 | EduSystem
 | POKER | Poker game | 172 | 
 | QUBIC | 3-dimensional tic-tac-toe | 174 | 
 | QUEEN | Move a single chess queen vs. the computer | 178 | 
