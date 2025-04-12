@@ -83,8 +83,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | MNOPLY | Monopoly for 2 players | 153 | BASIC-PLUS
 | MUGWMP | Locate 4 Mugwumps hiding on a 10x10 grid | 156 | BASIC-PLUS
 | NICOMA | Computer guesses number you think of | 158 | BASIC-PLUS
-| NIM | Chinese game of Nim | 160 | EduSystem
-| NUMBER | Silly number matching game | 162 | 
+| NIM | Chinese game of Nim | 160 | EduSystem 30?
+| NUMBER | Silly number matching game | 162 | EduSystem 30
 | 1CHECK | Challenging game to remove checkers from a board | 163 | 
 | ORBIT | Destroy an orbiting germ-laiden enemy spaceship | 165 | 
 | PIZZA | Deliver pizzas successfully | 167 | 
