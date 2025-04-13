@@ -91,8 +91,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | POETRY | Computer composes poetry in 4-part harmony | 169 | generic
 | POET | Computer composes random poetry | 171 | EduSystem ?
 | POKER | Poker game | 172 | BASIC-8
-| QUBIC | 3-dimensional tic-tac-toe | 174 | 
-| QUEEN | Move a single chess queen vs. the computer | 178 | 
+| QUBIC | 3-dimensional tic-tac-toe | 174 | generic
+| QUEEN | Move a single chess queen vs. the computer | 178 | unknown, line 99999
 | REVERSE | Order a series of numbers by reversing | 178 | 
 | ROCKET | Land an Apollo capsule on the moon | 180 | 
 | ROCKT1 | Lunar landing from 500 feet (with plot) | 183 | 
