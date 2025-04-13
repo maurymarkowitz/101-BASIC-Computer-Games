@@ -95,8 +95,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | QUEEN | Move a single chess queen vs. the computer | 178 | unknown, line 99999
 | REVERSE | Order a series of numbers by reversing | 178 | BASIC-8
 | ROCKET | Land an Apollo capsule on the moon | 180 | EduSystem 30
-| ROCKT1 | Lunar landing from 500 feet (with plot) | 183 | 
-| ROCKT2 | Very comprehensive lunar landing | 185 | 
+| ROCKT1 | Lunar landing from 500 feet (with plot) | 183 | BASIC-8
+| ROCKT2 | Very comprehensive lunar landing | 185 | generic
 | ROCKSP | Game of rock, scissors, paper | 188 | 
 | ROULET | European roulette table | 189 | 
 | RUSROU | Russian roulette | 192 | 
