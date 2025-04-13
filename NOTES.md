@@ -3,7 +3,7 @@ Notes on the OCR process
 
 Traditional OCR programs are generally useless for scanning code, with, at best, 50% of the characters being scanned correctly. On poorer quality prints, like these, the error rate was much closer to 90%. Much of the problem appears to be due to OCRs not being able to be told the text is monospaced, and the code splitting or joining glyphs.
 
-The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, which is as simple as uploading a screen capture and asking it to "ocr this basic code", it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT". Overall, they end up on the order of 95% accurate, which made this effort possible.
+The LLMs add a grammar layer to the process that helps tremendously. By telling the LLM you are scanning BASIC code, which is as simple as uploading a screen capture and asking it to "ocr this basic code", it limits the conversion to ASCII and knows that the thing that looks like "PRUNT" is actually "PRINT". It ends up on the order of 95% accurate, which made this effort possible.
 
 The scanning process is still subject to some of the basic issues that inflict all OCR's, like confusing 0 for O or 8 and getting it wrong where the context doesn't solve it - so while it will never change a line number from `1080` to `1O80`, it may change a variable name from `S0` to `SO` or a line number from `500` to `580`. They also have other problems if the lines are not perfectly aligned, copying text from one line into another, and similar scanning-related issues.
 
@@ -11,9 +11,9 @@ When you read the following list, it might seem that using the OCR and LLM is no
 
 * One curiosity of the LLMs is that they will randomly switch some logical comparisons found in IF lines. The most common is to replace `<>` with `=` and vice versa, but it will also switch `>` and `<=` and similar replacements. These are *very* easy to overlook, so it is the first thing to check for. It is likely there are some remaining logic problems in these listings as a result of missed replacements.
 
-* The LLMs understand the concept of line numbers, and that they have to be sequential. Periodically they will read the number incorrectly and then renumber all of the following lines to new, larger, values. They will insist that they have not done this and no prompt appears to fix it. These can only be seen and fixed by hand, or by re-scanning a smaller clip of the original code.
+* The LLMs understand the concept of line numbers, and that they have to be sequential. Periodically they will read one of the numbers incorrectly and then renumber all of the following lines to new, larger, values. They will insist that they have not done this and no prompt appears to fix it. These can only be seen and fixed by hand, or by re-scanning a smaller clip of the original code.
 
-* DEC dialects initially used `\` as the statement separator, instead of the later and more common `:`. The LLMs love to "fix" that for you and convert it to the colon. Some programs, like BOMBER, use both, so there may be some that have been converted incorrectly here.
+* DEC dialects initially used `\` as the statement separator, instead of the later and more common `:`. The LLMs love to "fix" that for you and convert it to the colon. Some programs, like BOMBER, use both, so there may be some that have been converted incorrectly here. They generally do understand it better if you tell it "this dialect uses \ to separate statements instead of :".
 
 * The LLMs all add or remove semicolons in `PRINT` statements seemingly at random, and these need to be checked. They have no effect on the running of the program, but the goal in this case is to exactly match the original source code, so look for these.
 
