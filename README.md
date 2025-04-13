@@ -97,7 +97,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | ROCKET | Land an Apollo capsule on the moon | 180 | EduSystem 30
 | ROCKT1 | Lunar landing from 500 feet (with plot) | 183 | BASIC-8
 | ROCKT2 | Very comprehensive lunar landing | 185 | generic
-| ROCKSP | Game of rock, scissors, paper | 188 | 
+| ROCKSP | Game of rock, scissors, paper | 188 | BASIC-8
 | ROULET | European roulette table | 189 | 
 | RUSROU | Russian roulette | 192 | 
 | SALVO | Destroy an enemy fleet of ships | 193 | 
