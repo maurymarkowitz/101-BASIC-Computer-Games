@@ -93,8 +93,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | POKER | Poker game | 172 | BASIC-8
 | QUBIC | 3-dimensional tic-tac-toe | 174 | generic
 | QUEEN | Move a single chess queen vs. the computer | 178 | unknown, line 99999
-| REVERSE | Order a series of numbers by reversing | 178 | 
-| ROCKET | Land an Apollo capsule on the moon | 180 | 
+| REVERSE | Order a series of numbers by reversing | 178 | BASIC-8
+| ROCKET | Land an Apollo capsule on the moon | 180 | EduSystem 30
 | ROCKT1 | Lunar landing from 500 feet (with plot) | 183 | 
 | ROCKT2 | Very comprehensive lunar landing | 185 | 
 | ROCKSP | Game of rock, scissors, paper | 188 | 
