@@ -89,8 +89,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | ORBIT | Destroy an orbiting germ-laiden enemy spaceship | 165 | generic
 | PIZZA | Deliver pizzas successfully | 167 | 
 | POETRY | Computer composes poetry in 4-part harmony | 169 | generic
-| POET | Computer composes random poetry | 171 | EduSystem
-| POKER | Poker game | 172 | 
+| POET | Computer composes random poetry | 171 | EduSystem ?
+| POKER | Poker game | 172 | BASIC-8
 | QUBIC | 3-dimensional tic-tac-toe | 174 | 
 | QUEEN | Move a single chess queen vs. the computer | 178 | 
 | REVERSE | Order a series of numbers by reversing | 178 | 
