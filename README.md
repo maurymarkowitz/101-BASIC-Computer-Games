@@ -101,8 +101,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | ROULET | European roulette table | 189 | generic
 | RUSROU | Russian roulette | 192 | BASIC-8
 | SALVO | Destroy an enemy fleet of ships | 193 | generic
-| SALVO1 | Destroy 4 enemy outposts | 195 | 
-| SLOTS | Slot machine (one-arm bandit) | 196 | 
+| SALVO1 | Destroy 4 enemy outposts | 195 | BASIC-8
+| SLOTS | Slot machine (one-arm bandit) | 196 | BASIC-8
 | SNOOPY | Pictures of Snoopy | 208 | No code!
 | SPACWR | Comprehensive game of spacewar | 210 | BASIC-PLUS
 | SPLAT | Open a parachute at the last possible moment | 205 | 
