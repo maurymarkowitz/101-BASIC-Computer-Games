@@ -110,7 +110,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | STOCK | Stock market simulation | 209 | BASIC-PLUS
 | SYNONM | Word synonym drill | 212 | BASIC-PLUS
 | TARGET | Destroy a target in 3-D space—very tricky | 214 | EduSystem ?
-| 3D PLOT | Plots families of curves—looks 3-dimensional | 216 | 
+| 3D PLOT | Plots families of curves—looks 3-dimensional | 216 | generic
 | TICTAC | Tic-tac-toe | 218 | 
 | TOWER | Towers of Hanoi puzzle | 221 | 
 | TRAIN | Time-speed-distance quiz | 223 | 
