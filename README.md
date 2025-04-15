@@ -100,7 +100,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | ROCKSP | Game of rock, scissors, paper | 188 | BASIC-8
 | ROULET | European roulette table | 189 | generic
 | RUSROU | Russian roulette | 192 | BASIC-8
-| SALVO | Destroy an enemy fleet of ships | 193 | 
+| SALVO | Destroy an enemy fleet of ships | 193 | generic
 | SALVO1 | Destroy 4 enemy outposts | 195 | 
 | SLOTS | Slot machine (one-arm bandit) | 196 | 
 | SNOOPY | Pictures of Snoopy | 208 | No code!
