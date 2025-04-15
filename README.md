@@ -37,7 +37,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | BULCOW | Guess a mystery 5-digit number vs. the computer | 55 | Dartmouth?
 | BULEYE | Throw darts | 57 | BASIC-PLUS
 | BULL | You're the matador in a championship bullfight | 59 | generic DEC
-| BUNNY | Computer drawing of the Playboy bunny | 62 | No code!
+| BUNNY | Computer drawing of the Playboy bunny | 62 | No code
 | BUZZWD | Compose your speeches with the latest buzzwords | 63 | EduSystem
 | CALNDR | Calendar for any year | 65 | EduSystem
 | CAN-AM | Drive a Group 7 car in a Can-Am road race | 67 | Dartmouth
@@ -103,7 +103,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | SALVO | Destroy an enemy fleet of ships | 193 | generic
 | SALVO1 | Destroy 4 enemy outposts | 195 | BASIC-8
 | SLOTS | Slot machine (one-arm bandit) | 196 | BASIC-8
-| SNOOPY | Pictures of Snoopy | 208 | No code!
+| SNOOPY | Pictures of Snoopy | 208 | No code
 | SPACWR | Comprehensive game of spacewar | 210 | BASIC-PLUS
 | SPLAT | Open a parachute at the last possible moment | 205 | 
 | STARS | Guess a mystery number—stars give you clues | 207 | 
