@@ -111,8 +111,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | SYNONM | Word synonym drill | 212 | BASIC-PLUS
 | TARGET | Destroy a target in 3-D space—very tricky | 214 | EduSystem ?
 | 3D PLOT | Plots families of curves—looks 3-dimensional | 216 | generic
-| TICTAC | Tic-tac-toe | 218 | 
-| TOWER | Towers of Hanoi puzzle | 221 | 
+| TICTAC | Tic-tac-toe | 218 | BASIC-PLUS
+| TOWER | Towers of Hanoi puzzle | 221 | BASIC-8
 | TRAIN | Time-speed-distance quiz | 223 | 
 | TRAP | Trap a mystery number—computer gives you clues | 224 | 
 | 23MTCH | Game of 23 matches—try not to take the last one | 226 | 
