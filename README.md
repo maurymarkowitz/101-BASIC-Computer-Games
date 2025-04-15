@@ -108,7 +108,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | SPLAT | Open a parachute at the last possible moment | 205 | EduSystem ?
 | STARS | Guess a mystery number—stars give you clues | 207 | generic
 | STOCK | Stock market simulation | 209 | BASIC-PLUS
-| SYNONM | Word synonym drill | 212 | 
+| SYNONM | Word synonym drill | 212 | BASIC-PLUS
 | TARGET | Destroy a target in 3-D space—very tricky | 214 | 
 | 3D PLOT | Plots families of curves—looks 3-dimensional | 216 | 
 | TICTAC | Tic-tac-toe | 218 | 
