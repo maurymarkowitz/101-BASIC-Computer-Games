@@ -113,8 +113,8 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | 3D PLOT | Plots families of curves—looks 3-dimensional | 216 | generic
 | TICTAC | Tic-tac-toe | 218 | BASIC-PLUS
 | TOWER | Towers of Hanoi puzzle | 221 | BASIC-8
-| TRAIN | Time-speed-distance quiz | 223 | 
-| TRAP | Trap a mystery number—computer gives you clues | 224 | 
+| TRAIN | Time-speed-distance quiz | 223 | BASIC-8
+| TRAP | Trap a mystery number—computer gives you clues | 224 | EduSystem 30
 | 23MTCH | Game of 23 matches—try not to take the last one | 226 | 
 | UGLY | Silly profile plot of an ugly woman | 228 | 
 | WAR | Card game of war | 230 | 
