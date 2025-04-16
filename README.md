@@ -119,7 +119,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | UGLY | Silly profile plot of an ugly woman | 228 | BASIC-8
 | WAR | Card game of war | 230 | generic
 | WAR-2 | Troop tactics in war | 232 | EduSystem 30
-| WEKDAY | Facts about your birthday | 234 | 
+| WEKDAY | Facts about your birthday | 234 | BASIC-PLUS
 | WORD | Word guessing game | 236 | 
 | YAHTZE | Dice game of Yahtzee | 238 | 
 | ZOOP | BASIC programmer's nightmare | 243 | 
