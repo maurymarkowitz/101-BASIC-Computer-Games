@@ -116,7 +116,7 @@ Many of these programs will run correctly without editing under [RetroBASIC](htt
 | TRAIN | Time-speed-distance quiz | 223 | BASIC-8
 | TRAP | Trap a mystery number—computer gives you clues | 224 | EduSystem 30
 | 23MTCH | Game of 23 matches—try not to take the last one | 226 | 
-| UGLY | Silly profile plot of an ugly woman | 228 | 
+| UGLY | Silly profile plot of an ugly woman | 228 | BASIC-8
 | WAR | Card game of war | 230 | 
 | WAR-2 | Troop tactics in war | 232 | 
 | WEKDAY | Facts about your birthday | 234 | 
